@@ -55,9 +55,9 @@ Goal is to raise the ability to provided community funded health-care.
 :LOGBOOK:
 CLOCK: [2025-06-26 Thu 17:29]
 :END:
-** TODO Emergency room- from first aid to life saving measures
-** TODO ICU-critical care needing vents, pumps, machines to stabilize critically ill patients
-** TODO Surgery ward- emergency to trauma surgery
-** TODO Admitting floor- any patients that need monitoring or cannot be discharged due to vitals will be admitted
-** TODO pharmacy-inhouse and discharge medications
-** TODO psychiatric hospitals
+** TODO [#A] Emergency room- from first aid to life saving measures
+** TODO [#B] ICU-critical care needing vents, pumps, machines to stabilize critically ill patients
+** TODO [#B] Surgery ward- emergency to trauma surgery
+** TODO [#A] Admitting floor- any patients that need monitoring or cannot be discharged due to vitals will be admitted
+** TODO [#C] pharmacy-inhouse and discharge medications
+** TODO [#B] psychiatric hospitals
