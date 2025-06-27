@@ -53,11 +53,48 @@ Hippocrates 先生 - Translation by W.H.S. Jones
 * TODO Introduction
 Goal is to raise the ability to provided community funded health-care.
 :LOGBOOK:
-CLOCK: [2025-06-26 Thu 17:29]
+CLOCK: [2025-06-26 Thu 17:29]--[2025-06-26 Thu 18:26] =>  0:57
 :END:
-** TODO [#A] Emergency room- from first aid to life saving measures
-** TODO [#B] ICU-critical care needing vents, pumps, machines to stabilize critically ill patients
-** TODO [#B] Surgery ward- emergency to trauma surgery
-** TODO [#A] Admitting floor- any patients that need monitoring or cannot be discharged due to vitals will be admitted
-** TODO [#C] pharmacy-inhouse and discharge medications
+** TODO [#A] Admitting floor
+- needing vents, pumps, machines to stabilize critically ill patients
+** TODO [#A] Emergency room
+- from first aid to life saving measures
+** TODO [#B] ICU-critical care
+** TODO [#A] IT
+- open source technology where possible
+*** TODO AI
+**** TODO [#A] [[https://github.com/medtorch/awesome-healthcare-ai][awesome-healthcare-ai]]
+Need to test these
+*** TODO [#C] [[https://flosmed.com/][FLOSMED]]
+- good start on necessary electronic documentation of symptoms etc
+*** TODO [#A] [[https://www.open-emr.org/][Open-EMR]]
+- open-source EMR technology
+*** TODO [#A] [[https://www.openevidence.com/][openevidence]]
+- ask medical questions but must register
+*** TODO [[https://opensourcemed.info/][Open Source Medicine Foundation]]
+** TODO [#C] Pharmacy
+-inhouse and discharge medications
+*** TODO [#A] traditional medicines
+**** TODO [#B] [[https://en.wikipedia.org/wiki/Kambo_(drug)][Kambo (drug)]]
+According to eye witnesses, undergoing the therapy with a shaman is
+highly recommended.
+***** TODO [#B] references
+****** TODO [#A] [[https://pmc.ncbi.nlm.nih.gov/articles/PMC9582840/][The Amazonian kambô frog Phyllomedusa bicolor (Amphibia: Phyllomedusidae): Current knowledge on biology, phylogeography, toxinology, ethnopharmacology and medical aspects]]
+*** TODO [#A] [[https://www.ospfound.org/][Open Source Pharma Foundation]]
+- open source pharma
+*** TODO [#A] [[http://www.opensourcepharma.net/][Open Source Pharma]]
+*** TODO [#A] [[https://osmedicine.org/][Open Source Medicine]]
+*** refs
+**** TODO [#A] [[https://pmc.ncbi.nlm.nih.gov/articles/PMC5395155/][An open source pharma roadmap]]
+** TODO [#A] preventative care center
 ** TODO [#B] psychiatric hospitals
+
+** TODO [#B] Surgery ward
+- emergency to trauma surgery
+*** TODO [#B] Radiology
+**** TODO [#A] Imaging
+***** TODO [#A] X-Ray
+**** TODO [#B] Therapy
+***** TODO [#B] https://qmagnets.com/magnetic-therapy/
+Affordable imaging devices are necessary for advanced treatment.
+- any patients that need monitoring or cannot be discharged due to vitals will be admitted
