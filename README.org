@@ -87,7 +87,7 @@ Need to test these
 *** TODO [#A] Traditional Medicines
 Check in the [[file:docs/][docs]] for information on traditional medicines.
 :LOGBOOK:
-CLOCK: [2025-06-27 Fri 17:31]
+CLOCK: [2025-06-27 Fri 17:31]--[2025-06-27 Fri 17:46] =>  0:15
 :END:
 **** TODO [#B] [[https://en.wikipedia.org/wiki/Kambo_(drug)][Kambo (drug)]]
 According to eye witnesses, undergoing the therapy with a shaman is
