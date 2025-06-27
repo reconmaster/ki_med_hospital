@@ -6,14 +6,79 @@
 #+TITLE: documentation
 #+AUTHOR: Andrew M Davis, PhD
 #+EMAIL: @reconmaster:matrix.org
+#+AUTHOR: Zorro
+#+EMAIL: @z0rro:matrix.org
 #+LANGUAGE: en
 #+SELECT_TAGS: export
 #+EXCLUDE_TAGS: noexport
 #+CREATOR: Emacs 26.1 (Org mode 9.1.13)
-#+FILETAGS: 気, ki, doc
+#+FILETAGS: 気, ki, doc, med, hospital
 Objective: [[https://en.wikipedia.org/wiki/Documentation][documentation]]
 * Introduction
-Documentation is critical to ensure our research methodology is
-completely transparent and understandable to those that consume it.
-Without a clear explanation of our procedures, the [[../results/README.org][results]] themselves
-are meaningless.
+:LOGBOOK:
+CLOCK: [2025-06-27 Fri 16:59]--[2025-06-27 Fri 17:31] =>  0:32
+:END:
+Here is the documentation of the
+** Traditional Medicine Documentation
+- The following pdf was prepared by Zorro and contains links to
+  relevant projects.
+** [[https://en.wikipedia.org/wiki/Kambo_(drug)][Kambo (drug)]]
+Unique Properties of Kambo: Kambo contains a variety of bioactive
+peptides that have been shown to have antimicrobial,
+anti-inflammatory, and immune-boosting properties.: Kambo is often
+used as part of a holistic detoxification process that addresses not
+just the symptoms but the overall health and well- being of the
+individual. People can respond differently to various treatments. What
+might not work for one person could be highly effective for another
+due to individual biological variations.
+*** refs
+**** [[https://kambowarriordetox.com/][Kambo Warrior Detox]]
+Company offering detox with Kambo.
+- [[file:kambo.pdf::%PDF-1.7][Kambo Warrior Info]]
+*** Cupping (Hijima)
+Cupping Cupping, also known as Hijama in Arabic, is an ancient healing
+technique that has been used for centuries to treat various health
+problems. It involves using small glass cups to create a vacuum on the
+skin, which draws out toxins and promotes healing.
+
+The practice of Hijama involves creating a vacuum on specific points
+of the skin using 9-11 plastic cups on either side of the spine, neck,
+and shoulder blades. Cuts are made to the skin under the cups, and the
+cups are suctioned to create a vacuum, which pulls out the blood and
+other fluids from the skin, removing toxins and promoting healing.
+
+Hijama therapy has historical roots in ancient Egyptian and Chinese
+medical practices, and it has been documented in various civilizations
+throughout history.
+
+It is also mentioned in Islamic traditions, with hadiths supporting
+its recommendation and use by the Islamic prophet Muhammad.
+
+Despite its long history, there is limited evidence to support its
+effectiveness as a treatment method, with most studies indicating that
+there is no high-quality evidence for its use except for treating
+pain. While some traditional perspectives suggest that Hijama therapy
+can balance the body's humours, improve blood circulation, and
+strengthen the immune system, modern research indicates that it may
+stimulate the body's natural healing response.
+
+However, there is no conclusive evidence supporting the claimed health
+benefits of cupping, and critics have characterized the practice as
+pseudoscience.
+
+Cupping therapy is generally considered safe for most people, but it
+can cause bruising and may lead to skin infections.
+
+**** refs
+- https://www.masnad.com.au/hijama-wet-cupping-therapy-in-the-olympics-the-ancient-healing-technique-for-modern-athletes/
+*** [[https://en.wikipedia.org/wiki/Acupuncture][Acupuncture]]
+Acupuncture is a form of alternative medicine and a component of
+traditional Chinese medicine (TCM) in which thin needles are inserted
+into the body. Acupuncture is a pseudoscience.According to the World
+Health Organization, acupuncture is used in 103 of 129 countries that
+reported data.National survey data indicate that in the United States,
+acupuncture is most commonly used for pain, such as back, joint, or
+neck pain.
+*** refs
+- https://www.hopkinsmedicine.org/health/wellness-and-prevention/acupuncture
+- https://www.nccih.nih.gov/health/acupuncture-effectiveness-and-safety
