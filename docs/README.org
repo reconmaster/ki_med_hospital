@@ -14,7 +14,7 @@
 #+CREATOR: Emacs 26.1 (Org mode 9.1.13)
 #+FILETAGS: 気, ki, doc, med, hospital
 #+BEGIN: clocktable :scope file :maxlevel 2
-#+CAPTION: Clock summary at [2025-06-27 Fri 17:58]
+#+CAPTION: Clock summary at [2025-06-28 Sat 20:47]
 | Headline                               | Time   |      |
 |----------------------------------------+--------+------|
 | *Total time*                           | *0:43* |      |
