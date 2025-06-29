@@ -12,12 +12,14 @@
 #+CREATOR: Emacs 26.1 (Org mode 9.1.13)
 #+FILETAGS: 気, ki, med, hospital
 #+BEGIN: clocktable :scope file :maxlevel 3
-#+CAPTION: Clock summary at [2025-06-27 Fri 17:30]
-| Headline     | Time   |
-|--------------+--------|
-| *Total time* | *1:06* |
-|--------------+--------|
-| Introduction | 1:06   |
+#+CAPTION: Clock summary at [2025-06-27 Fri 18:07]
+| Headline                    | Time   |      |      |
+|-----------------------------+--------+------+------|
+| *Total time*                | *1:21* |      |      |
+|-----------------------------+--------+------+------|
+| Introduction                | 1:21   |      |      |
+| \_  Pharmacy                |        | 0:15 |      |
+| \_    Traditional Medicines |        |      | 0:15 |
 #+END:
 
 Objective: Open-Source Hospital
