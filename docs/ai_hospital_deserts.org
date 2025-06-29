@@ -1,0 +1,104 @@
+* Hospital Deserts in MKE
+#+begin_ai
+[SYS]: Please help me write python code using matlab showing hospital
+deserts in Milwaukee.
+
+[ME]:
+
+[AI]: To visualize hospital deserts in Milwaukee using Python with data possibly from MATLAB, we will follow a set of steps. We'll assume you have access to hospital locations data and city boundary shape data for Milwaukee. Below is a Python code snippet that uses the `geopandas` and `matplotlib` libraries for the visualization.
+
+### Step-by-Step Code Example
+
+1. **Install Required Libraries**: You need to install the necessary libraries if you haven't already. You can do this using pip:
+
+   ```bash
+   pip install geopandas matplotlib
+   ```
+
+2. **Prepare Your Data**:
+   Ensure you have two datasets:
+   - A GeoJSON or shapefile of Milwaukee's boundaries.
+   - A GeoJSON or CSV file containing the locations of hospitals in Milwaukee.
+
+3. **Example Code**:
+
+Here's a sample code to visualize hospital deserts in Milwaukee:
+
+```python
+import geopandas as gpd
+import matplotlib.pyplot as plt
+
+# Load Milwaukee boundaries
+milwaukee_boundaries = gpd.read_file('path_to_milwaukee_boundaries.shp')
+
+# Load Hospital locations
+hospital_data = gpd.read_file('path_to_hospital_locations.geojson')  # Ensure your file's format is correct
+
+# Create a base map
+fig, ax = plt.subplots(figsize=(10, 10))
+milwaukee_boundaries.plot(ax=ax, color='lightgrey', edgecolor='black')
+
+# Plot hospitals
+hospital_data.plot(ax=ax, color='red', markersize=30, label='Hospitals')
+
+# Optionally, you can create a hexbin or density plot to show areas with fewer hospitals
+hospital_density = hospital_data.geometry.unary_union.buffer(0.001).envelope  # Adjust buffer as necessary
+
+ax.set_title('Hospital Locations in Milwaukee', fontsize=15)
+plt.xlabel('Longitude')
+plt.ylabel('Latitude')
+plt.legend()
+plt.show()
+
+# Save the plot if desired
+plt.savefig('milwaukee_hospital_deserts.png')
+```
+
+### Explanation
+
+- **GeoPandas** is used to read geospatial data.
+- **Matplotlib** is used for plotting the locations.
+- The script reads in the Milwaukee boundaries and hospital locations, then generates a map plotted with the boundaries in light grey and hospitals in red.
+- The commented-out portion indicates how you might visualize density or coverage gaps if needed, depending on how you define "hospital deserts."
+
+### Next Steps
+
+- **Check your datasets' paths and formats.** Ensure they are correct.
+- **Define "hospital deserts":** You may want to analyze coverage areas based on population density or specific geographic areas.
+- **Visual adjustments**: You might want to customize marker sizes, colors, or the plot's appearance as necessary.
+
+This code serves as a foundational step to visualize hospital deserts. You should adapt it to your specific requirements and datasets.
+
+[ME]:
+#+end_ai
+
+#+begin_src python :output deserts.png
+import geopandas as gpd
+import matplotlib.pyplot as plt
+
+# Load Milwaukee boundaries
+milwaukee_boundaries = gpd.read_file('path_to_milwaukee_boundaries.shp')
+
+# Load Hospital locations
+hospital_data = gpd.read_file('path_to_hospital_locations.geojson')  # Ensure your file's format is correct
+
+# Create a base map
+fig, ax = plt.subplots(figsize=(10, 10))
+milwaukee_boundaries.plot(ax=ax, color='lightgrey', edgecolor='black')
+
+# Plot hospitals
+hospital_data.plot(ax=ax, color='red', markersize=30, label='Hospitals')
+
+# Optionally, you can create a hexbin or density plot to show areas with fewer hospitals
+hospital_density = hospital_data.geometry.unary_union.buffer(0.001).envelope  # Adjust buffer as necessary
+
+ax.set_title('Hospital Locations in Milwaukee', fontsize=15)
+plt.xlabel('Longitude')
+plt.ylabel('Latitude')
+plt.legend()
+plt.show()
+
+# Save the plot if desired
+plt.savefig('milwaukee_hospital_deserts.png')
+
+#+end_src
