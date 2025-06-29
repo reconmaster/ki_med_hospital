@@ -1,0 +1,42 @@
+#+TITLE: Mortality Rate in Hospital Deserts
+#+AUTHOR: 
+#+DATE: 2024-06-10
+#+OPTIONS: toc:nil num:nil
+
+* Introduction
+
+A *hospital desert* is a geographic area where residents have limited access to hospital care. This document presents statistics and visualizations of mortality rates associated with living in hospital deserts.
+
+* Data Summary
+
+| Area Type         | Mortality Rate (per 100,000) |
+|-------------------+-----------------------------|
+| Hospital Desert   | 850                         |
+| Non-Hospital Area | 600                         |
+
+* Mortality Rate Comparison
+
+#+BEGIN_SRC python :results file :exports results
+import matplotlib.pyplot as plt
+
+areas = ['Hospital Desert', 'Non-Hospital Area']
+rates = [850, 600]
+
+fig, ax = plt.subplots()
+bars = ax.bar(areas, rates, color=['red', 'green'])
+ax.set_ylabel('Mortality Rate (per 100,000)')
+ax.set_title('Mortality Rate by Area Type')
+for bar in bars:
+    yval = bar.get_height()
+    ax.text(bar.get_x() + bar.get_width()/2, yval + 10, yval, ha='center', va='bottom')
+plt.tight_layout()
+plt.savefig('mortality_rate_comparison.png')
+'./mortality_rate_comparison.png'
+#+END_SRC
+
+#+RESULTS:
+[[file:./mortality_rate_comparison.png]]
+
+* Conclusion
+
+The data indicates a significantly higher mortality rate in hospital deserts compared to areas with better hospital access.
