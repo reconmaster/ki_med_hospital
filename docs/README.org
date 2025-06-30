@@ -13,13 +13,27 @@
 #+EXCLUDE_TAGS: noexport
 #+CREATOR: Emacs 26.1 (Org mode 9.1.13)
 #+FILETAGS: 気, ki, doc, med, hospital
+#+BEGIN: clocktable :scope file :maxlevel 2
+#+CAPTION: Clock summary at [2025-06-28 Sat 20:47]
+| Headline                               | Time   |      |
+|----------------------------------------+--------+------|
+| *Total time*                           | *0:43* |      |
+|----------------------------------------+--------+------|
+| Introduction                           | 0:43   |      |
+| \_  Traditional Medicine Documentation |        | 0:11 |
+#+END:
+
 Objective: [[https://en.wikipedia.org/wiki/Documentation][documentation]]
 * Introduction
 :LOGBOOK:
 CLOCK: [2025-06-27 Fri 16:59]--[2025-06-27 Fri 17:31] =>  0:32
 :END:
-Here is the documentation of the
+Here is the documentation of the open source hospital ideas. Many
+thanks for fellow contributors
 ** Traditional Medicine Documentation
+:LOGBOOK:
+CLOCK: [2025-06-27 Fri 17:47]--[2025-06-27 Fri 17:58] =>  0:11
+:END:
 - The following pdf was prepared by Zorro and contains links to
   relevant projects.
 ** [[https://en.wikipedia.org/wiki/Kambo_(drug)][Kambo (drug)]]
@@ -31,8 +45,8 @@ just the symptoms but the overall health and well- being of the
 individual. People can respond differently to various treatments. What
 might not work for one person could be highly effective for another
 due to individual biological variations.
-*** refs
-**** [[https://kambowarriordetox.com/][Kambo Warrior Detox]]
+**** refs
+***** [[https://kambowarriordetox.com/][Kambo Warrior Detox]]
 Company offering detox with Kambo.
 - [[file:kambo.pdf::%PDF-1.7][Kambo Warrior Info]]
 *** Cupping (Hijima)
@@ -79,6 +93,6 @@ Health Organization, acupuncture is used in 103 of 129 countries that
 reported data.National survey data indicate that in the United States,
 acupuncture is most commonly used for pain, such as back, joint, or
 neck pain.
-*** refs
+**** refs
 - https://www.hopkinsmedicine.org/health/wellness-and-prevention/acupuncture
 - https://www.nccih.nih.gov/health/acupuncture-effectiveness-and-safety

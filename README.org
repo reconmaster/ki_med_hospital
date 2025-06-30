@@ -12,12 +12,14 @@
 #+CREATOR: Emacs 26.1 (Org mode 9.1.13)
 #+FILETAGS: 気, ki, med, hospital
 #+BEGIN: clocktable :scope file :maxlevel 3
-#+CAPTION: Clock summary at [2025-06-27 Fri 17:30]
-| Headline     | Time   |
-|--------------+--------|
-| *Total time* | *1:06* |
-|--------------+--------|
-| Introduction | 1:06   |
+#+CAPTION: Clock summary at [2025-06-27 Fri 18:07]
+| Headline                    | Time   |      |      |
+|-----------------------------+--------+------+------|
+| *Total time*                | *1:21* |      |      |
+|-----------------------------+--------+------+------|
+| Introduction                | 1:21   |      |      |
+| \_  Pharmacy                |        | 0:15 |      |
+| \_    Traditional Medicines |        |      | 0:15 |
 #+END:
 
 Objective: Open-Source Hospital
@@ -87,7 +89,7 @@ Need to test these
 *** TODO [#A] Traditional Medicines
 Check in the [[file:docs/][docs]] for information on traditional medicines.
 :LOGBOOK:
-CLOCK: [2025-06-27 Fri 17:31]
+CLOCK: [2025-06-27 Fri 17:31]--[2025-06-27 Fri 17:46] =>  0:15
 :END:
 **** TODO [#B] [[https://en.wikipedia.org/wiki/Kambo_(drug)][Kambo (drug)]]
 According to eye witnesses, undergoing the therapy with a shaman is
